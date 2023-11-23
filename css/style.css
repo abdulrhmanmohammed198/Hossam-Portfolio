@@ -3,6 +3,9 @@
 /* ///////////////////////////////////////////////////////////////////// 
 // 03 - Preloader
 /////////////////////////////////////////////////////////////////////*/
+#hero {
+  background-color: #201c1c !important;
+}
 
 #preloader {
   position: fixed;
@@ -35,7 +38,7 @@ a:active {
   outline: none !important;
 }
 p {
-  color: #8c9398;
+  color: #353535;
   word-spacing: 1px;
   line-height: 25px;
   font-size: 14px;
@@ -396,6 +399,9 @@ table {
 }
 /* Menu Button */
 .menu-button {
+  background: none !important;
+  outline: none;
+  border: none !important;
   z-index: 1000;
   margin: 0;
   padding: 0;
@@ -428,11 +434,17 @@ table {
 /* Menu */
 .menu-wrap {
   z-index: 999;
-  background: rgba(255, 255, 255, 1);
+  background: #f3f5f8bb;
+  border-radius: 20px 5px 20px 5px;
   -webkit-transition: width 0.4s, height 0.4s, -webkit-transform 0.4s;
   transition: width 0.4s, height 0.4s, transform 0.4s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  -webkit-filter: blur(70%);
+  -webkit-border-radius: 20px 5px 20px 5px;
+  -moz-border-radius: 20px 5px 20px 5px;
+  -ms-border-radius: 20px 5px 20px 5px;
+  -o-border-radius: 20px 5px 20px 5px;
 }
 .menu {
   height: 100%;
@@ -600,6 +612,7 @@ table {
   border-bottom: none;
 }
 .scrollto--arrow {
+  color: #fff !important;
   padding: 10px;
 }
 .scrollto--arrow img {
@@ -1330,6 +1343,7 @@ ul.slides li {
 .mainName {
   width: 100% !important;
   font-size: 4rem !important;
+  color: #fff;
 }
 
 .thumbnail {
