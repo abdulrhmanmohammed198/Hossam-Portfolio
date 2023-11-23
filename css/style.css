@@ -504,7 +504,7 @@ table {
 /* ==========================================================================Hero========================================================================== */
 .hero {
   background: url('../img/header-bg.png') right bottom no-repeat;
-  background-size: 70%;
+  background-size: 60vw;
   padding: 110px 0 100px 0;
   height: auto;
   background-color: #fbfbfb;
@@ -1325,6 +1325,11 @@ ul.slides li {
 
 .mainHeadline {
   padding-right: 3rem !important;
+}
+
+.mainName {
+  width: 100% !important;
+  font-size: 4rem !important;
 }
 
 .thumbnail {
