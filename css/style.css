@@ -1351,3 +1351,8 @@ ul.slides li {
   height: 400px !important;
   width: 600 !important;
 }
+
+.click {
+  font-size: 0.75rem;
+  color: #8c8c8c !important;
+}
